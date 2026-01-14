@@ -1,0 +1,40 @@
+{
+  "id": "krc-motm",
+  "title": "Krucjator Monsters of the Multiverse",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "15"
+  },
+  "authors": [
+    {
+      "name": "Krucjator",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "races-motm",
+      "label": "Races MotM",
+      "path": "packs/races-motm",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Monsters of the Multiverse",
+      "sorting": "a",
+      "packs": [
+        "races-motm"
+      ],
+      "color": "#008f7e",
+      "folders": []
+    }
+  ]
+}
