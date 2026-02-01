@@ -1,8 +1,24 @@
-2026/01/14-11:10:57.770 4930 Recovering log #559
-2026/01/14-11:10:57.775 4930 Delete type=0 #559
-2026/01/14-11:10:57.775 4930 Delete type=3 #558
-2026/01/14-11:32:28.710 2b84 Level-0 table #563: started
-2026/01/14-11:32:28.710 2b84 Level-0 table #563: 0 bytes OK
-2026/01/14-11:32:28.711 2b84 Delete type=0 #561
-2026/01/14-11:32:28.711 2b84 Manual compaction at level-0 from '!folders!8gaSCYVUebJXAX9B' @ 72057594037927935 : 1 .. '!items.effects!oXip5d7SUZ0GvNQB.RtnPwQIaGAdfJ9A2' @ 0 : 0; will stop at (end)
-2026/01/14-11:32:28.711 2b84 Manual compaction at level-1 from '!folders!8gaSCYVUebJXAX9B' @ 72057594037927935 : 1 .. '!items.effects!oXip5d7SUZ0GvNQB.RtnPwQIaGAdfJ9A2' @ 0 : 0; will stop at (end)
+2026/02/01-09:06:06.659 2f34 Recovering log #829
+2026/02/01-09:06:06.660 2f34 Level-0 table #832: started
+2026/02/01-09:06:06.668 2f34 Level-0 table #832: 364603 bytes OK
+2026/02/01-09:06:06.674 2f34 Delete type=0 #829
+2026/02/01-09:06:06.674 2f34 Delete type=3 #827
+2026/02/01-09:24:21.702 1b64 Moved #832 to level-1 364603 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2026/02/01-09:54:38.402 1b64 Compacting 1@1 + 1@2 files
+2026/02/01-09:54:38.411 1b64 Generated table #834@1: 176 keys, 272547 bytes
+2026/02/01-09:54:38.411 1b64 Compacted 1@1 + 1@2 files => 272547 bytes
+2026/02/01-09:54:38.412 1b64 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/01-09:54:38.412 1b64 Delete type=2 #830
+2026/02/01-09:54:38.412 1b64 Delete type=2 #832
+2026/02/01-10:48:07.049 1b64 Level-0 table #836: started
+2026/02/01-10:48:07.059 1b64 Level-0 table #836: 277509 bytes OK
+2026/02/01-10:48:07.060 1b64 Delete type=0 #833
+2026/02/01-10:48:07.066 1b64 Manual compaction at level-0 from '!folders!0AYiKFeDCCAPAtNt' @ 72057594037927935 : 1 .. '!items.effects!w2ymhNQe2pef3pfH.DXW0NXybnINsIVIm' @ 0 : 0; will stop at (end)
+2026/02/01-10:48:07.066 1b64 Manual compaction at level-1 from '!folders!0AYiKFeDCCAPAtNt' @ 72057594037927935 : 1 .. '!items.effects!w2ymhNQe2pef3pfH.DXW0NXybnINsIVIm' @ 0 : 0; will stop at '!items!xrNbBa09cYslPJml' @ 1692 : 1
+2026/02/01-10:48:07.066 1b64 Compacting 1@1 + 1@2 files
+2026/02/01-10:48:07.074 1b64 Generated table #837@1: 176 keys, 274338 bytes
+2026/02/01-10:48:07.074 1b64 Compacted 1@1 + 1@2 files => 274338 bytes
+2026/02/01-10:48:07.074 1b64 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/01-10:48:07.075 1b64 Delete type=2 #834
+2026/02/01-10:48:07.075 1b64 Delete type=2 #836
+2026/02/01-10:48:07.075 1b64 Manual compaction at level-1 from '!items!xrNbBa09cYslPJml' @ 1692 : 1 .. '!items.effects!w2ymhNQe2pef3pfH.DXW0NXybnINsIVIm' @ 0 : 0; will stop at (end)
